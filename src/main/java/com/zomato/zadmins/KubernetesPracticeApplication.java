@@ -15,7 +15,7 @@ public class KubernetesPracticeApplication {
 	
 	@GetMapping(value = {"/","/hello"})
 	public String greet() {
-		return "Welcome sushant";
+		return "Welcome sushant ";
 	}
 	
 	@GetMapping(value = {"/hi"})
